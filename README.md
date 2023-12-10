@@ -32,5 +32,5 @@ The following image shows the web application's appearance and functionality:
 
 ## Repository and Webpage link
 
-- [Repository Link](#)
-- [Webpage Link](#)
+- [Repository Link](https://github.com/marphco/horiseon-code-refactor)
+- [Webpage Link](https://marphco.github.io/horiseon-code-refactor/)
