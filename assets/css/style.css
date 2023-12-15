@@ -99,12 +99,21 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* Added flex attribute to make the sidebar of the same height of the main content */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 940px;
 }
 
 /* Created a single class used on each benefit block */
 .benefit {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     color: #ffffff;
+    /* Added flex attribute to align articles equally inside of the sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Created a single declaration block for all h3 elements nested in the class benefit */
